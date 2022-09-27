@@ -27,7 +27,6 @@ footer nav {
     display: flex;
     justify-content: space-between;
     column-gap: 1rem;
-    background-color: rgb(30 255 212);
     width: 920px;
     margin: 0 auto;
     padding: 6px;
@@ -47,6 +46,14 @@ h2 {
     font-size: 1.8rem;
     padding: 4rem 5rem;
     padding-bottom: 1rem;
+}
+
+h3 {
+    font-family: arial;
+    font-size: 1.6rem;
+    text-align: left;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
 }
 
 .text {
@@ -187,18 +194,24 @@ h2 {
 
 }
 
-footer .border-container {
-    border: 1px dashed black;
+.button-center {
+    margin-left: 24rem;
 }
 
-.border-white {
-    border: 1px dashed white;
-    background-color: rgb(0 183 173);
+.footer-title {
+    padding-top: 3rem;
+    color: var(--color-violet);
 }
+
+.footer-text {
+    color: white;
+}
+
 
 .background {
     background-image: url(../img/jumbo.png);
     background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .background-grey {
@@ -206,14 +219,15 @@ footer .border-container {
 }
 
 .bg-star {
-    background-image: url(../img/stars.svg)
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-.background-green {
-    background-color: rgb(0 147 9);
-    padding: 240px;
+.image-ita {
+    width: 20px;
 }
 
-.background-dark-pink {
-    background-color: rgb(255 115 119);
+.fa-brands {
+    color: white;
 }
